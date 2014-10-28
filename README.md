@@ -1,7 +1,7 @@
 jclouds
 ======
 
-CHANGE 1
+CHANGE 2
 
 Apache jclouds is an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.
 
