@@ -47,7 +47,6 @@ import com.google.common.collect.ImmutableSet;
 public class ServerApiExpectTest extends BaseNovaApiExpectTest {
 
    public void testListServersWhenResponseIs2xx() throws Exception {
-      HttpRequest listServers = HttpRequest.builder()
             .method("GET")
             .endpoint("https://az-1.region-a.geo-1.compute.hpcloudsvc.com/v2/3456/servers")
             .addHeader("Accept", "application/json")
